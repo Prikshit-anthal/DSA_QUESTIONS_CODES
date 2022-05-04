@@ -47,20 +47,21 @@ int main()
 {
     Solution obj;
     obj.makeSet(7);
-    obj._union(0, 1);
-    cout << obj.findParent(1);
-    obj._union(1, 2);
-    // obj._union(2,3);
+    // obj._union(0, 1);
+    // cout << obj.findParent(1);
+    // obj._union(1, 2);
+    // // obj._union(2,3);
+    // // cout << obj.findParent(3);
+
+    // obj._union(3, 4);
+    // obj._union(5, 6);
+    // cout << obj.findParent(6);
+
+    // obj._union(4, 5);
+    // cout << obj.findParent(5);
     // cout << obj.findParent(3);
 
-    obj._union(3, 4);
-    obj._union(5, 6);
-    cout << obj.findParent(6);
-
-    obj._union(4, 5);
-    cout << obj.findParent(5);
-    cout << obj.findParent(3);
-
-    obj._union(2, 6);
+    // obj._union(2, 6);
+    cout<<obj.findParent(3);
     return 0;
 }
