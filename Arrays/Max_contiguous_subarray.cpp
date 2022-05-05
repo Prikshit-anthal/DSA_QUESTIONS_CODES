@@ -64,8 +64,10 @@ public:
 };
 int main()
 {
-    int arr[] = {7, -1, 5, -3, -6, 4};
-    Solution obj(arr, 6);
+    int arr[] = {74, -72, 94, -53, -59, -3, -66, 36, -13, 22, 73, 15, -52, 75};
+    Solution obj(arr, 14);
 
     return 0;
 }
+
+//its still wrong :(
