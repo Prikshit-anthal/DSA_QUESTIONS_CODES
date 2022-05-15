@@ -18,6 +18,9 @@ void print_node(Node *node)
     print_node(node->right);
     cout << ") ";
 }
+
+//NO NEED FOR NODES LIKE I USED HERE
+//BETTER APPROACH IN second file
 class Solution
 {
     Node *unbal_occur_z_p = NULL;
